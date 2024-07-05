@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #222831; /* Add a background color to the navbar */
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
+    z-index: 1000; /* Ensure the navbar is on top of other elements */
+    padding: 10px 20px; /* Optional: add some padding */
+}
+
+.left_side{
+    display: flex;
+    flex-direction: row;
+
+    img{
+        height: 100px;
+        width: 110px;
+        margin-left: 50px;
+    }
+}
+
+.left_side p{
+    font-weight: 800;
+    color: #3F72AF;
+}
+
+.right_side{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    right: 0;
+
+    a{
+        margin-right: 30px;
+        color: #EEEEEE;
+        font-size: 15px;
+    }
+
+    a:hover{
+        color: #112D4E;
+        transition: 0.8s;
+    }
+}
+
+
+
